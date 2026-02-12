@@ -1,0 +1,81 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f7fa;
+}
+
+.auth-card {
+  width: 320px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 20px;
+}
+
+.auth-card input,
+.auth-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0057ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-link {
+  margin-top: 12px;
+  color: #0057ff;
+  cursor: pointer;
+  font-size: 14px;
+}
+.auth-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.forgot-link {
+  margin-top: 12px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #333;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  margin: 20px auto;
+}
+.auth-card input {
+  margin-bottom: 16px;
+}
+
+.auth-card button {
+  margin-top: 10px;
+}
+
+.auth-card p {
+  margin-top: 14px;
+}
