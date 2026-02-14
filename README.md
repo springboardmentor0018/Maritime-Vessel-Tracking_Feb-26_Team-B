@@ -1,40 +1,30 @@
-# Maritime Vessel Tracking – Frontend (Milestone 1)
+# Week 1 – Database Setup (Maritime Platform)
 
-This is the frontend implementation for the Maritime Vessel Tracking project.  
-The UI is built using React based on the provided Figma design.
+## Scope
+This repository contains the **Week-1 database and backend setup** for the Maritime Vessel Tracking platform.
 
-## Features
-- Login Page
-- Register Page with Confirm Password
-- Profile Page
-- Responsive UI
-- React Router Navigation
-- Clean component structure
+## Work Completed
+- Designed database schema for users, vessels, ports, voyages, events, and notifications
+- Implemented Django models with proper relationships
+- Used Django’s built-in User model for authentication
+- Created a UserProfile table to store application-specific roles:
+  - Operator
+  - Analyst
+  - Admin
+- Generated and applied migrations to create all tables
+- Added sample data using Django Admin
+- Verified tables and data using Django shell
+- Implemented basic authentication APIs (register, login, profile)
 
 ## Tech Stack
-- React.js
-- CSS
-- Axios
-- React Router
+- Django
+- Django REST Framework
+- Django ORM
+- SQLite (development)
 
-## Project Structure
-src/
-  pages/
-  api/
-  styles/
-  App.js
-  index.js
+## Setup Instructions
+```bash
+pip install django djangorestframework
+python manage.py migrate
+python manage.py runserver
 
-## How to Run Project
-
-1. Install dependencies:
-npm install
-
-2. Start development server:
-npm start
-
-3. Open browser:
-http://localhost:3000
-
-## Milestone Status
-Frontend Milestone-1 completed.
