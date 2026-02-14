@@ -62,7 +62,6 @@ class Notification(models.Model):
 
     def __str__(self):
         return self.type
-
 class UserProfile(models.Model):
     ROLE_CHOICES = [
         ('OPERATOR', 'Operator'),
@@ -72,8 +71,6 @@ class UserProfile(models.Model):
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     role = models.CharField(max_length=20, choices=ROLE_CHOICES)
-    company_name = models.CharField(max_length=100)
-    created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.user.username
+        return f"{self.user.username} - {self.role}"
