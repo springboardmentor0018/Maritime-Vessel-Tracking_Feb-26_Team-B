@@ -1,0 +1,98 @@
+.subscription-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.card h2 {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Row (toggle section) */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Form */
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Checkboxes */
+.checkbox-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.checkbox-group label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Button */
+.save-btn {
+  width: 100%;
+  padding: 10px;
+  background: #2da7d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #1c8cb8;
+}
+
+/* Success */
+.success-box {
+  margin-top: 20px;
+  background: #d4edda;
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.success-box p {
+  margin: 0;
+}
+
+.success-box button {
+  padding: 5px 10px;
+  background: #2d3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
